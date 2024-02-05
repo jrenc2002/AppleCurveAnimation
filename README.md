@@ -317,5 +317,43 @@ repeatCount：定义动画重复的次数。对于<set>来说，通常是"1"或�
 ```
 大概长这样。
 ![msedge_G1Hk8rdWfP](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/e8f797fe-e517-4b88-b660-b2d36f6e63a3)
+然后基于此，深化一下就做出来了‘你妈’的文字动画。
+![msedge_sbbLT1QMaF](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/f14d6e24-300f-41ac-be9c-f1408bb7751b)
+```
+<svg width="800px" height="360px" viewBox="0 0 480 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path stroke-dasharray="0,200" stroke="black"  stroke-linejoin="round"  stroke-width="3px"
+          d="M1 28.5C5.74068 17.6646 8.34689 12.561 13 5.5L8 15.5L8.5 49.5" >
+    <animate dur="0.5s" values="0,200;200,0;" begin="0" id="animateSig1"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M29.5 0.5C26.7031 7.75429 23.01 14.2983 17.5 21.5C34 3 57.5 9.5 43.5 23.5" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;" begin="animateSig1.end" id="animateSig2"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M32.0001 20.5C37.0881 32.5014 36.1524 37.3503 34.0007 47C32.5514 53.5 19.6397 55.495 20.0006 42.5C20.5004 24.5 63.5001 31 45.5007 49.5" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;" begin="animateSig2.end" id="animateSig3"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M77.8325 2C67.1668 23.8894 65.5201 35.2083 84.8325 50.5" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;" begin="animateSig3.end" id="animateSig4"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M90.5 14.5C72.4569 16.8684 63.5001 24.5 60 34C56.5 43.5 70.5 56 78 44.5C85.5 33 85 29 86 18.5" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;" begin="animateSig4.end" id="animateSig5"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M95 7.95511C110.111 -2.43509 122 4.5855 107.5 19.0857" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;"begin="animateSig5.end" id="animateSig6"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
+    <path d="M129.841 32.5856C129.841 32.5856 98.3409 27.5857 92.3409 37.0857C86.3409 46.5857 101.841 53.0856 111.841 50.0857C121.841 47.0858 122.341 24.0858 116.841 20.5857C111.341 17.0856 103.5 21.5857 101 20.5857C98.5 19.5857 101 14.5 104 11" stroke-dasharray="0,200" stroke="black" stroke-linejoin="round"  stroke-width="3px">
+    <animate dur="0.5s" values="0,200;200,0;" begin="animateSig6.end" id="animateSig7"
+             fill="freeze" attributeName="stroke-dasharray" attributeType="XML"></animate>
+    </path>
 
+</svg>
+```
+他的制作方法很简单，就是用Figma的钢笔工具去画几个线条，然后用刚才的方法实现每个线条的独立绘制。然后像PPT一样做好关键帧动画的时间管理就好。
+![image](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/6ff53532-2774-4eae-bcf7-0d2660452509)##
+#### 第三个颜色问题我想应该是最简单的，可以自己配色搭配即可，搞了半个下午累死了，暂时结束。
 
