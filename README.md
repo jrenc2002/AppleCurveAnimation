@@ -1,5 +1,6 @@
-![msedge_SrrhPmabaE](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/87905ee4-15d6-4a00-bb8e-49af3bc2dae5)# AppleCurveAnimation
+# AppleCurveAnimation
 想做一个可以通过钢笔/画板/文字去实现apple的hello一样的曲线动画，可以导出GIF格式或者Html代码的小玩意。
+如果能帮上忙的话可以给个Star哦！爱你mua😘
 
 ## 分层
 ### 1. 找到一个合适的svg图像。
@@ -189,6 +190,7 @@ stroke-dashoffset: 此属性用于指定虚线模式的起始点。它的值表�
 学会了画连笔字应该做什么？当然是先，哄哄女朋友去啦！o(*￣▽￣*)ブ
 ![image](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/64139b16-7c3a-4b96-97fd-6822909718cb)
 ![msedge_SrrhPmabaE](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/23de52fa-e411-4182-8ec9-c63d6c7e32c1)
+![msedge_SrrhPmabaE](https://github.com/lulu546/AppleCurveAnimation/assets/87536202/87905ee4-15d6-4a00-bb8e-49af3bc2dae5)
 
 ```
     <svg height="560" cursor="default" id="svg_document" width="700">
